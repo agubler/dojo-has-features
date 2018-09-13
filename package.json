@@ -1,12 +1,14 @@
 {
 	"name": "features",
 	"version": "1.0.0",
-	"scipts": {
-		"build:local": "dojo build -m dev",
-		"build:ci": "dojo build -m dev -f api-host=my-ci.com",
-		"build:qa": "dojo build -m dev -f api-host=my-qa.com",
-		"build:stage": "dojo build -f api-host=my-staging.com",
-		"build:prod": "dojo build -f api-host=my-production.com"
+	"scripts": {
+		"clean": "shx rm -rf dist/local && shx rm -rf dist/ci && shx rm -rf dist/qa && shx rm -rf dist/stage && shx rm -rf dist/prod",
+		"build:local": "dojo build -m dev && shx mv output/dev dist/local",
+		"build:ci": "dojo build -m dev -f api-host=my-ci.com && shx mv output/dev dist/ci",
+		"build:qa": "dojo build -m dev -f api-host=my-qa.com && shx mv output/dev dist/qa",
+		"build:stage": "dojo build -f api-host=my-staging.com && shx mv output/dist dist/stage",
+		"build:prod": "dojo build -f api-host=my-production.com && shx mv output/dist dist/prod",
+		"build": "npm run clean && npm run build:local && npm run build:ci && npm run build:qa && npm run build:stage && npm run build:prod"
 	},
 	"dependencies": {
 		"@dojo/framework": "~3.0.0",
@@ -17,6 +19,7 @@
 		"@dojo/cli-build-app": "~3.0.0",
 		"@dojo/cli-test-intern": "~3.0.0",
 		"@types/node": "~9.6.5",
+		"shx": "^0.3.2",
 		"typescript": "~2.6.1"
 	}
 }
