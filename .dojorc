@@ -1,0 +1,9 @@
+{
+	"build-app": {
+		"features": {
+			"api-host": "localhost:9999"
+		}
+	},
+	"test-intern": {},
+	"create-app": {}
+}
