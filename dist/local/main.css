@@ -1,0 +1,53 @@
+/*!
+ * 
+ * [Dojo](https://dojo.io/)
+ * Copyright [JS Foundation](https://js.foundation/) & contributors
+ * [New BSD license](https://github.com/dojo/meta/blob/master/LICENSE)
+ * All rights reserved
+ * 
+ */
+/* Put your styles and imports here */
+body {
+	color: #fff;
+	background: #1d1f20;
+}
+.helloWorld-m__root__3mLE4 {
+	text-align: center;
+	padding: 100px 0 0 0;
+}
+
+.helloWorld-m__logo__SNEWw {
+	width: 200px;
+	-webkit-animation: helloWorld-m__rotation__12uyc 2s infinite linear;
+	        animation: helloWorld-m__rotation__12uyc 2s infinite linear;
+}
+
+.helloWorld-m__label__1nYEu {
+	padding: 20px;
+	margin: 20px;
+	font-family: 'Arial', serif;
+}
+
+@-webkit-keyframes helloWorld-m__rotation__12uyc {
+	from {
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(359deg);
+		        transform: rotate(359deg);
+	}
+}
+
+@keyframes helloWorld-m__rotation__12uyc {
+	from {
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(359deg);
+		        transform: rotate(359deg);
+	}
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvbWFpbi5jc3MiLCJ3ZWJwYWNrOi8vLy4vc3JjL3dpZGdldHMvc3R5bGVzL2hlbGxvV29ybGQubS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7QUFBQSxzQ0FBc0M7QUFDdEM7Q0FDQyxZQUFZO0NBQ1osb0JBQW9CO0NBQ3BCO0FDSkQ7Q0FDQyxtQkFBbUI7Q0FDbkIscUJBQXFCO0NBQ3JCOztBQUVEO0NBQ0MsYUFBYTtDQUNiLG9FQUErQztTQUN2Qyw0REFBdUM7Q0FDL0M7O0FBRUQ7Q0FDQyxjQUFjO0NBQ2QsYUFBYTtDQUNiLDRCQUE0QjtDQUM1Qjs7QUFFRDtDQUNDO0VBQ0MsZ0NBQWdDO1VBQ3hCLHdCQUF3QjtFQUNoQztDQUNEO0VBQ0Msa0NBQWtDO1VBQzFCLDBCQUEwQjtFQUNsQztDQUNEOztBQUVEO0NBQ0M7RUFDQyxnQ0FBZ0M7VUFDeEIsd0JBQXdCO0VBQ2hDO0NBQ0Q7RUFDQyxrQ0FBa0M7VUFDMUIsMEJBQTBCO0VBQ2xDO0NBQ0QiLCJmaWxlIjoibWFpbi5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBQdXQgeW91ciBzdHlsZXMgYW5kIGltcG9ydHMgaGVyZSAqL1xuYm9keSB7XG5cdGNvbG9yOiAjZmZmO1xuXHRiYWNrZ3JvdW5kOiAjMWQxZjIwO1xufVxuXG5cblxuLy8gV0VCUEFDSyBGT09URVIgLy9cbi8vIC4vc3JjL21haW4uY3NzIiwiLnJvb3Qge1xuXHR0ZXh0LWFsaWduOiBjZW50ZXI7XG5cdHBhZGRpbmc6IDEwMHB4IDAgMCAwO1xufVxuXG4ubG9nbyB7XG5cdHdpZHRoOiAyMDBweDtcblx0LXdlYmtpdC1hbmltYXRpb246IHJvdGF0aW9uIDJzIGluZmluaXRlIGxpbmVhcjtcblx0ICAgICAgICBhbmltYXRpb246IHJvdGF0aW9uIDJzIGluZmluaXRlIGxpbmVhcjtcbn1cblxuLmxhYmVsIHtcblx0cGFkZGluZzogMjBweDtcblx0bWFyZ2luOiAyMHB4O1xuXHRmb250LWZhbWlseTogJ0FyaWFsJywgc2VyaWY7XG59XG5cbkAtd2Via2l0LWtleWZyYW1lcyByb3RhdGlvbiB7XG5cdGZyb20ge1xuXHRcdC13ZWJraXQtdHJhbnNmb3JtOiByb3RhdGUoMGRlZyk7XG5cdFx0ICAgICAgICB0cmFuc2Zvcm06IHJvdGF0ZSgwZGVnKTtcblx0fVxuXHR0byB7XG5cdFx0LXdlYmtpdC10cmFuc2Zvcm06IHJvdGF0ZSgzNTlkZWcpO1xuXHRcdCAgICAgICAgdHJhbnNmb3JtOiByb3RhdGUoMzU5ZGVnKTtcblx0fVxufVxuXG5Aa2V5ZnJhbWVzIHJvdGF0aW9uIHtcblx0ZnJvbSB7XG5cdFx0LXdlYmtpdC10cmFuc2Zvcm06IHJvdGF0ZSgwZGVnKTtcblx0XHQgICAgICAgIHRyYW5zZm9ybTogcm90YXRlKDBkZWcpO1xuXHR9XG5cdHRvIHtcblx0XHQtd2Via2l0LXRyYW5zZm9ybTogcm90YXRlKDM1OWRlZyk7XG5cdFx0ICAgICAgICB0cmFuc2Zvcm06IHJvdGF0ZSgzNTlkZWcpO1xuXHR9XG59XG5cblxuXG4vLyBXRUJQQUNLIEZPT1RFUiAvL1xuLy8gLi9zcmMvd2lkZ2V0cy9zdHlsZXMvaGVsbG9Xb3JsZC5tLmNzcyJdLCJzb3VyY2VSb290IjoiIn0=*/
